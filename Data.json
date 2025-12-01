@@ -1,0 +1,34 @@
+{
+    "player": {
+        "1374579243": {
+            "heath": 100,
+            "experience": 18,
+            "weapon_id": "weapon_vladimer",
+            "armor_id": "armor_vladimer",
+            "inv_ids": [
+                ["weapon_vladimer", 1],
+                ["armor_vladimer", 2],
+                ["food_returner", 3]
+            ]
+        }
+    },
+
+    "item": {
+        "weapon_vladimer": {
+            "type": "weapon",
+            "name": "Меч Владимира",
+            "attack": 123,
+            "crit_attack_percent": 10
+        },
+        "armor_vladimer": {
+            "type": "armor",
+            "name": "Броня Владимира",
+            "defence_percent": 10 
+        },
+        "food_returner": {   
+            "type": "food",
+            "name": "Еда Returner'a",
+            "satiety": 20
+        }
+    }
+}

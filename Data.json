@@ -3,24 +3,24 @@
         "1374579243": {
             "heath": 100,
             "experience": 18,
-            "weapon_id": "weapon_vladimer",
-            "armor_id": "armor_vladimer",
+            "weapon_id": "weapon_vladimir",
+            "armor_id": "armor_vladimir",
             "inv_ids": [
-                ["weapon_vladimer", 1],
-                ["armor_vladimer", 2],
+                ["weapon_vladimir", 1],
+                ["armor_vladimir", 2],
                 ["food_returner", 3]
             ]
         }
     },
 
     "item": {
-        "weapon_vladimer": {
+        "weapon_vladimir": {
             "type": "weapon",
             "name": "Меч Владимира",
             "attack": 123,
             "crit_attack_percent": 10
         },
-        "armor_vladimer": {
+        "armor_vladimir": {
             "type": "armor",
             "name": "Броня Владимира",
             "defence_percent": 10 
@@ -29,6 +29,37 @@
             "type": "food",
             "name": "Еда Returner'a",
             "satiety": 20
+        }
+    },
+
+    "entity": {
+        "chest_mimic": {
+            "type": "mimic",
+            "name": "Мимик",
+            "fake_name": "Сундук",
+            "heath": 150,
+            "attack": 123,
+            "crit_attack_percent": 10,
+            "percent_loot": 75,
+            "loot": ["weapon_vladimir", "food_returner"],
+            "sprite": "./sprite/mimic."
+        },
+        "slime": {
+            "type": "enemy",
+            "name": "Слизь",
+            "heath": 100,
+            "attack": 12,
+            "crit_attack_percent": 10,
+            "percent_loot": 1,
+            "loot": ["weapon_vladimir"],
+            "sprite": "./sprite/slime.png"
+        },
+        "chest": {
+            "type": "chest",
+            "name": "Сундук",
+            "percent_loot": 80,
+            "loot": ["weapon_vladimir", "food_returner"],
+            "sprite": "./sprite/chest.png"
         }
     }
 }

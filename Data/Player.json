@@ -1,0 +1,13 @@
+{
+    "1374579243": {
+        "heath": 100,
+        "experience": 18,
+        "weapon": "weapon_vladimir",
+        "armor": "armor_vladimir",
+        "inventory": [
+            ["weapon_vladimir", 1],
+            ["armor_vladimir", 2],
+            ["food_returner", 3]
+        ]
+    }
+}

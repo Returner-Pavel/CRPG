@@ -1,0 +1,24 @@
+{
+		"chest_mimic": {
+		    "type": "mimic",
+		    "name": "Мимик",
+		    "fake_name": "Сундук",
+		    "heath": 150,
+		    "attack": 123,
+		    "crit_attack_percent": 10,
+		    "percent_loot": 75,
+		    "loot": ["weapon_vladimir", "food_returner"],
+		    "sprite": "mimic_sprite",
+		    "fake_sprite": "chest_sprite"
+		},
+		"slime": {
+		    "type": "enemy",
+		    "name": "Слизь",
+		    "heath": 100,
+		    "attack": 12,
+		    "crit_attack_percent": 10,
+		    "percent_loot": 1,
+		    "loot": ["weapon_vladimir"],
+		    "sprite": "slime_sprite"
+		}
+}

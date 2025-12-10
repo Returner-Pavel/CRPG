@@ -1,0 +1,18 @@
+{
+    "weapon_vladimir": {
+        "type": "weapon",
+        "name": "Меч Владимира",
+        "attack": 123,
+        "crit_attack_percent": 10
+    },
+    "armor_vladimir": {
+        "type": "armor",
+        "name": "Броня Владимира",
+        "defence_percent": 10
+    },
+    "food_returner": {
+        "type": "food",
+        "name": "Еда Returner'a",
+        "satiety": 20
+    }
+}

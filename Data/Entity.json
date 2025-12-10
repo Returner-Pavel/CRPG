@@ -1,0 +1,9 @@
+{
+		"chest": {
+		    "type": "chest",
+		    "name": "Сундук",
+		    "percent_loot": 80,
+		    "loot": ["weapon_vladimir", "food_returner"],
+		    "sprite": "chest_sprite"
+		}
+}
